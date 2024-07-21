@@ -1,0 +1,17 @@
+<!DOCTYPE suite SYSTEM "https://testng.org/testng-1.0.dtd">
+<suite name="SuiteName">
+    <test name="TestName">
+
+        <groups>
+            <run>
+                <include name="smoke"/>
+                <exclude name="regression"/>
+            </run>
+        </groups>
+        <classes>
+            <class name="TestNGPackage.OncTCexaple"/>
+            <class name="TestNGPackage.OneTest"/>
+
+        </classes>
+    </test>
+</suite>
