@@ -9,7 +9,7 @@
                 </methods>
             </class>
             <class name="TestNGPackage.OneTest"/>
-            <class name="com.simplilearnpackage.LoginTest"/>
+            <class name="TestCases.LoginTest"/>
         </classes>
     </test>
 </suite>
